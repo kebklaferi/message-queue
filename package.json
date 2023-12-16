@@ -1,0 +1,19 @@
+{
+  "name": "message-queue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "receiver": "node receiver.mjs",
+    "sender": "node sender.mjs",
+    "publisher": "node ./fanout/publisher.mjs",
+    "subscriber": "node ./fanout/subscriber.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
